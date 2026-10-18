@@ -1,0 +1,9 @@
+{
+  "version": "v14.0.0",
+  "based_on_original_firmware": "ElphaPex DG-Home1 V1.0.5",
+  "image_filename": "DGH_Home1_v14.0.0_SD_8GB.img",
+  "image_bytes": 8053063680,
+  "image_sha256": "db215f43ad81fc465c26eec32f2925accb2eb5c96e607995f0950ea0201bc800",
+  "minimum_card_actual_bytes": 8053063680,
+  "logical_sector_bytes": 512
+}

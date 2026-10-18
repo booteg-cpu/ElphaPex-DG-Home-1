@@ -1,0 +1,30 @@
+ElphaPex DG Home 1 — v14.0.0
+
+基于原版 ElphaPex DG-Home1 V1.0.5 的 SD 固件。
+
+主矿池恢复
+使用 Pool 2 或 Pool 3 挖矿时，主矿池恢复后会自动切回 Pool 1。
+连续三次检查成功后执行切回，挖矿会短暂中断。保留原厂温度保护。
+支持 stratum+tcp；尚未确认 TLS 矿池兼容性。
+
+安装
+从发布 ZIP 中解压 DGH_Home1_v14.0.0_SD_8GB.img，
+使用 Rufus 的 DD 模式写入。请核对随附的 SHA-256。
+镜像大小为 8,053,063,680 字节，逻辑扇区大小必须为 512 字节。
+存储卡实际容量不得小于镜像大小；部分标称 8 GB 的卡容量不足。
+GPT 按此大小准备，尚未确认其他容量的兼容性。分区不会自动扩容。
+插入 SD 卡前请关闭矿机，并保留正常工作的存储卡用于恢复。
+本镜像从 SD 卡启动，不是内部 eMMC 更新包。
+
+首次启动
+矿池和 Wi-Fi 配置为空，启动后请填写自己的设置。
+root 账户：root / admin，请立即更改密码。
+网页界面可能仍显示原版 V1.0.5 版本号。
+
+本镜像已在 ASIC 矿机上验证，并已长期运行。
+
+捐赠
+TRX: TBhFJKbh7E7o2ezh3x8RwJiAoPVKF94aVw
+Ethereum (ETH): 0x0cAd5052B15b06aF62140e329A6684FaC27fB4C0
+BTC: bc1qprxtn8j6y7adjnc0vw2jgnyj48eg39y65phfr2
+Solana (SOL): CCHEzR6hVU3JigCGUdB278gGc2L21Vu2smQZHiNoQuCY

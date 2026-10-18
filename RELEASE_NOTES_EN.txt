@@ -1,0 +1,32 @@
+ElphaPex DG Home 1 — v14.0.0
+
+SD firmware based on the original ElphaPex DG-Home1 V1.0.5.
+
+POOL RECOVERY
+Automatically returns to Pool 1 after it recovers while mining on Pool 2
+or Pool 3. Recovery requires three successful checks. Returning to Pool 1
+briefly interrupts mining. Original thermal protection is preserved.
+Supports stratum+tcp; TLS pool compatibility is not confirmed.
+
+INSTALLATION
+Extract DGH_Home1_v14.0.0_SD_8GB.img from the release ZIP and write it
+with Rufus in DD mode. Verify the download against the supplied SHA-256.
+Image size: 8,053,063,680 bytes; logical sector size: 512 bytes.
+The card must have at least this actual capacity. Some nominal 8 GB cards
+are too small. GPT is prepared for this image size; compatibility with
+other card capacities is not confirmed. Partitions do not expand automatically.
+Power off the miner before inserting the SD card. Keep a working card for recovery.
+This is an SD boot image, not an internal eMMC update.
+
+FIRST START
+Pool and Wi-Fi settings are empty. Enter your own settings after boot.
+Root account: root / admin. Change the password immediately.
+The web interface may still display the original V1.0.5 version.
+
+The image has been tested on an ASIC and is in long-term use.
+
+DONATIONS
+TRX: TBhFJKbh7E7o2ezh3x8RwJiAoPVKF94aVw
+Ethereum (ETH): 0x0cAd5052B15b06aF62140e329A6684FaC27fB4C0
+BTC: bc1qprxtn8j6y7adjnc0vw2jgnyj48eg39y65phfr2
+Solana (SOL): CCHEzR6hVU3JigCGUdB278gGc2L21Vu2smQZHiNoQuCY
